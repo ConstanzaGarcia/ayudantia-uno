@@ -1,0 +1,53 @@
+body {
+    background-image: url("../image/fondo.jpg");
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+
+.titulo {
+    text-align: center;
+    padding: 15px; 
+}
+
+.botones {
+    text-align: center;
+}
+
+.botones button {
+    padding: 2%;
+    border-radius: 7px;
+    font-size:20px;
+    background-color:green;
+    color: antiquewhite;
+    margin: 2% 2% 6% 2%;
+}
+
+button:hover {
+background-color: yellow;
+color: green;
+}
+
+.text_hide {
+    background-color: aliceblue;
+    padding: 2%;
+    border: 2px solid green;
+    border-radius: 7px;
+    margin-bottom: 5%;
+}
+
+img {
+    width: 100%;
+}
+
+.img_show {
+    display: none;
+}
+.ada{
+    background-color: aliceblue;
+    padding: 2%;
+    border: 2px solid green;
+}
+
+.hide{
+    display: none;
+}
